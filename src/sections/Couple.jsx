@@ -18,6 +18,18 @@ export default function Couple() {
       </Reveal>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-14 text-center">
+        <Reveal variant="slideRight">
+          <img
+            src={config.groom.photo}
+            alt={config.groom.fullName}
+            className="w-[170px] h-[170px] rounded-full object-cover border-4 border-gold shadow-royal mx-auto"
+          />
+          <h3 className="font-display text-3xl mt-5 mb-1" style={{ color: config.theme.colors.emerald }}>{config.groom.name}</h3>
+          <div className="text-xs tracking-widest uppercase mb-3" style={{ color: config.theme.colors.maroonDeep }}>The Groom</div>
+          <p className="leading-relaxed" style={{ color: config.theme.colors.ink }}>S/O {config.groom.parents}</p>
+          <p className="leading-relaxed mt-2" style={{ color: config.theme.colors.ink }}>{config.groom.story}</p>
+        </Reveal>
+        
         <Reveal variant="slideLeft">
           <img
             src={config.bride.photo}
@@ -30,17 +42,6 @@ export default function Couple() {
           <p className="leading-relaxed mt-2" style={{ color: config.theme.colors.ink }}>{config.bride.story}</p>
         </Reveal>
 
-        <Reveal variant="slideRight">
-          <img
-            src={config.groom.photo}
-            alt={config.groom.fullName}
-            className="w-[170px] h-[170px] rounded-full object-cover border-4 border-gold shadow-royal mx-auto"
-          />
-          <h3 className="font-display text-3xl mt-5 mb-1" style={{ color: config.theme.colors.emerald }}>{config.groom.name}</h3>
-          <div className="text-xs tracking-widest uppercase mb-3" style={{ color: config.theme.colors.maroonDeep }}>The Groom</div>
-          <p className="leading-relaxed" style={{ color: config.theme.colors.ink }}>S/O {config.groom.parents}</p>
-          <p className="leading-relaxed mt-2" style={{ color: config.theme.colors.ink }}>{config.groom.story}</p>
-        </Reveal>
       </div>
 
       <Reveal variant="scale" className="mt-16 max-w-xl mx-auto text-center">

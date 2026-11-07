@@ -52,25 +52,25 @@ import scratchBg from '../assets/images/props/scratchbg.png';
 const config = {
   // ---------------------------------------------------------------- SEO
   seo: {
-    siteTitle: 'Sushma & Vinay — Wedding Invitation',
-    description: 'Join Sushma & Vinay as they begin their forever. December 2026, New Delhi.',
-    url: 'https://sushmavinay.wedding',
+    siteTitle: 'Sangita & Sangram — Wedding Invitation',
+    description: 'Join Sangita & Sangram as they begin their forever. December 2026.',
+    //url: 'https://sangitasangram.wedding',
     ogImage: '/cover.jpg',
   },
 
   // ------------------------------------------------------------- COUPLE
   bride: {
-    name: 'Sushma',
-    fullName: 'Sushma.L.P',
-    parents: 'Sri B.A. Prakash & Smt. Late Latha',
+    name: 'Sangita',
+    fullName: 'Sangita Jena',
+    parents: 'Sri Ganesh Jena & Smt. Sanjukta',
     photo: bridePic,
     story:
       '',
   },
   groom: {
-    name: 'Vinay',
-    fullName: 'Vinay.R',
-    parents: 'Late Sri Rudra Aradhya & Smt. Manjula',
+    name: 'Sangram',
+    fullName: 'Sangram Guru',
+    parents: 'Sri Gokul Guru & Smt. Sabita Guru',
     photo: groomPic,
     story:
       '',
@@ -79,7 +79,7 @@ const config = {
 
   quote: {
     text: 'Two souls, one heart, one destiny woven in gold thread and temple bells.',
-    by: 'Sushma & Vinay',
+    by: 'Sangita & Sangram',
   },
 
   welcome: {
@@ -92,17 +92,17 @@ const config = {
   },
 
   // ------------------------------------------------------------- DATES
-  weddingDate: '2026-09-21T10:00:00',
-  receptionDate: '2026-09-20T19:00:00',
+  weddingDate: '2026-11-30T17:00:00',
+  receptionDate: '2026-12-02T18:00:00',
 
   // ------------------------------------------------------------- VENUE
   venue: {
     name: 'The Venue',
-    address: 'PRAKRUTHI VILASA',
-    mapsLink: 'https://maps.app.goo.gl/fNTzFE3DBAceXFWH9',
+    address: 'Chasangara, Balugaon, Odisha',
+    mapsLink: 'https://maps.app.goo.gl/cadVtsfuV7Jhqjwm6',
     mapsEmbed:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.162777287996!2d77.7175536750741!3d12.832755887470016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6d15b3be0553%3A0xbaa6da78b605a0d4!2sPRAKRUTHI%20VILASA!5e0!3m2!1sen!2sin!4v1787860400033!5m2!1sen!2sin',
-    parkingInfo: 'Singena Agrahara Gate, Dommasandra Road, Near Chowdeshwary Nursery, Bengaluru, Karnataka — 560099',
+      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d961381.7027064431!2d84.1058349609375!3d19.73826880666261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a18113bd5adf8b1%3A0xa7c694d2126abba4!2sChasangara%20Divyasinghpur%20Market!5e0!3m2!1sen!2sin!4v1794040555790!5m2!1sen!2sin',
+    //parkingInfo: 'Singena Agrahara Gate, Dommasandra Road, Near Chowdeshwary Nursery, Bengaluru, Karnataka — 560099',
     hotelsNearby: [
       { name: 'The Oberoi, New Delhi', distance: '2.1 km' },
       { name: 'Taj Mahal Hotel', distance: '3.4 km' },
@@ -113,9 +113,9 @@ const config = {
   contacts: {
     //groomPhone: '+91',
     //bridePhone: '+917483147151',
-    parentsPhone: '+917483147151',
-    whatsapp: '917483147151',
-    //email: 'hello@sushmavinay.wedding',
+    parentsPhone: '+919090480226',
+    whatsapp: '919090480226',
+    //email: 'hello@sangitasangram.wedding',
   },
   contactsSection: {
     title: 'Get In Touch',
@@ -131,15 +131,15 @@ const config = {
       overlay: 'rgba(10,3,5,0.15)', // background overlay opacity
     },
     items: [
-      //{ source: 'contacts.groomPhone', label: 'Call Vinay', icon: 'phone' },
-      // { source: 'contacts.bridePhone', label: 'Call Sushma', icon: 'phone' },
+      //{ source: 'contacts.groomPhone', label: 'Call Sangram', icon: 'phone' },
+      // { source: 'contacts.bridePhone', label: 'Call Sangita', icon: 'phone' },
       { source: 'contacts.parentsPhone', label: 'Contact us', icon: 'phone' },
       { source: 'contacts.whatsapp', label: 'WhatsApp', icon: 'whatsapp' },
       { source: 'contacts.email', label: 'Instagram', icon: 'instagram' },
       { source: 'venue.mapsLink', label: 'Directions', icon: 'map' },
     ],
   },
-  instagram: 'https://instagram.com/sushmavinay',
+  instagram: 'https://instagram.com/sangitasangram',
 
   // ---------------------------------------------------------- GALLERY
   gallerySection: {
@@ -217,9 +217,9 @@ const config = {
     {
       name: 'Haldi',
       icon: '🌼',
-      date: 'Sept 18, 2026',
+      date: 'Nov 30, 2026',
       time: '10:00 AM',
-      venue: 'Aradhya Nilaya, Bangalore',
+      venue: 'Tarini Temple, Banpur, Odisha',
       // dressCode: 'Yellow Attire',
       description: 'A joyful morning of turmeric, laughter, and blessings from both families.',
       backgroundImage: haldiImg, // optional per-card override
@@ -227,9 +227,9 @@ const config = {
     {
       name: 'Mehendi',
       icon: '🌿',
-      date: 'Sept 18, 2026',
-      time: '05:00 PM',
-      venue: 'Aradhya Nilaya, Bangalore',
+      date: 'Nov 30, 2026',
+      time: '04:00 PM',
+      venue: 'Tarini Temple, Banpur, Odisha',
       // dressCode: 'Green & Gold',
       description: 'Intricate henna, live dhol, and an evening of stories and sweets.',
       backgroundImage: mehandiImg,
@@ -247,9 +247,9 @@ const config = {
     {
       name: 'Reception',
       icon: '🥂',
-      date: 'Sept 20, 2026',
-      time: '7:00 PM',
-      venue: 'Prakruthi Vilasa, Bangalore',
+      date: 'Dec 02, 2026',
+      time: '6:00 PM',
+      venue: 'Chasangara, Balugaon, Odisha',
       // dressCode: 'Formal / Black Tie',
       description: 'An elegant evening to celebrate the newlyweds with dinner and dance.',
       backgroundImage: receptionImg,
@@ -257,9 +257,9 @@ const config = {
     {
       name: 'Wedding',
       icon: '💍',
-      date: 'Sept 21, 2026',
-      time: '10:00 AM',
-      venue: 'Prakruthi Vilasa, Bangalore',
+      date: 'Nov 30, 2026',
+      time: '05:00 PM',
+      venue: 'Chasangara, Balugaon, Odisha',
       // dressCode: 'Traditional Indian',
       description: 'Sacred vows exchanged around the holy fire, as our families become one.',
       backgroundImage: weddingImg,
@@ -306,17 +306,17 @@ const config = {
     { src: img4, type: 'image' },
     { src: img5, type: 'image' },
     { src: img6, type: 'image' },
-    { src: img7, type: 'image' },
-    { src: img8, type: 'image' },
-    { src: img9, type: 'image' },
-    { src: img10, type: 'image' },
-    { src: img11, type: 'image' },
-    { src: img12, type: 'image' },
-    { src: img13, type: 'image' },
-    { src: img14, type: 'image' },
-    { src: img15, type: 'image' },
-    { src: img16, type: 'image' },
-    { src: img17, type: 'image' },
+    // { src: img7, type: 'image' },
+    // { src: img8, type: 'image' },
+    // { src: img9, type: 'image' },
+    // { src: img10, type: 'image' },
+    // { src: img11, type: 'image' },
+    // { src: img12, type: 'image' },
+    // { src: img13, type: 'image' },
+    // { src: img14, type: 'image' },
+    // { src: img15, type: 'image' },
+    // { src: img16, type: 'image' },
+    // { src: img17, type: 'image' },
     //{ src: img18, type: 'image' },
     // { src: '/videos/highlight.mp4', type: 'video', poster: '/images/gallery-1.jpg' },
   ],

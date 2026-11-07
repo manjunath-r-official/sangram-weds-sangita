@@ -147,7 +147,7 @@ export default function WelcomeSequence({ visible, onEnter }) {
           animation: 'welcomeFloat 3.6s ease-in-out infinite',
         }}
       >
-        ಸುಸ್ವಾಗತ
+        स्वागत
       </div>
 
       <div

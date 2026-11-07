@@ -142,7 +142,7 @@ export default function Gallery() {
       id="gallery" 
       className="section max-w-[1120px] mx-auto px-5 py-20 relative"
       style={{ 
-        backgroundImage: `url(${galleryBg})`,
+        // backgroundImage: `url(${galleryBg})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -155,8 +155,8 @@ export default function Gallery() {
       <div className="absolute inset-0" style={{ background: galleryColors.overlay }} />
       
       <Reveal className="text-center relative z-10">
-        <span className="inline-block tracking-[0.28em] uppercase text-xs mb-3" style={{ color: galleryColors.titleSmall }}>{galleryTitleSmall}</span>
-        <h2 className="font-display font-medium" style={{ fontSize: 'clamp(34px,6vw,58px)', color: galleryColors.title }}>{galleryTitle}</h2>
+        <span className="inline-block tracking-[0.28em] uppercase text-xs mb-3 text-gold-bright">{galleryTitleSmall}</span>
+        <h2 className="font-display font-medium" style={{ fontSize: 'clamp(34px,6vw,58px)', color: galleryColors.titleSmall }}>{galleryTitle}</h2>
         <p className="italic max-w-md mx-auto mt-2 mb-8" style={{ color: galleryColors.subtitle }}>{gallerySubtitle}</p>
       </Reveal>
 

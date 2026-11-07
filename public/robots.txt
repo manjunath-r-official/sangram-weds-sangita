@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vinay-sushma.vercel.app/sitemap.xml
+Sitemap: https://sangram-sangita.vercel.app/sitemap.xml
