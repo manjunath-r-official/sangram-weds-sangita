@@ -217,7 +217,7 @@ const config = {
     {
       name: 'Haldi',
       icon: '🌼',
-      date: 'Nov 30, 2026',
+      date: 'Nov 29, 2026',
       time: '10:00 AM',
       venue: 'Tarini Temple, Banpur, Odisha',
       // dressCode: 'Yellow Attire',
@@ -227,7 +227,7 @@ const config = {
     {
       name: 'Mehendi',
       icon: '🌿',
-      date: 'Nov 30, 2026',
+      date: 'Nov 29, 2026',
       time: '04:00 PM',
       venue: 'Tarini Temple, Banpur, Odisha',
       // dressCode: 'Green & Gold',
